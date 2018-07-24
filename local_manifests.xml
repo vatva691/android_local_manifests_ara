@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Nokia X2 aka Ara -->
-    <project path="device/nokia/ara" name="cm-nokia-x2/android_device_nokia_ara" revision="cm-11.0-wip" />
-    <project path="kernel/nokia/msm8610" name="cm-nokia-x2/android_kernel_nokia_msm8610" revision="cm-11.0-wip-bisect-plus-upstream" />
-    <project path="vendor/nokia/ara" name="cm-nokia-x2/proprietary_vendor_nokia_ara" revision="cm-11.0" />
+    <project path="device/nokia/ara" name="vatva691/android_device_nokia_ara" revision="cm-11.0-wip" />
+    <project path="kernel/nokia/msm8610" name="vatva691/android_kernel_nokia_msm8610" revision="cm-11.0-wip-bisect-plus-upstream" />
+    <project path="vendor/nokia/ara" name="vatva691/proprietary_vendor_nokia_ara" revision="cm-11.0" />
     <!-- vatva691 dependencies -->
-    <project path="hardware/qcom/display" name="vatva691/android_hardware_qcom_display" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/media" name="vatva691/android_hardware_qcom_media" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/audio" name="vatva691/android_hardware_qcom_audio" remote="github" revision="cm-11.0" />
-    <project path="device/qcom/sepolicy" name="vatva691/android_device_qcom_sepolicy" remote="github" revision="cm-11.0" />
-    <project path="vendor/codeaurora/telephony" name="vatva691/android_vendor_codeaurora_telephony" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/display-caf" name="vatva691/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/media-caf" name="vatva691/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/audio-caf" name="vatva691/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-11.0" />
     <project path="vendor/aosp" name="vatva691/platform_vendor_aosp" remote="github" revision="aosp-8.1" />
     
         <!-- CyanogenMod dependencies -->
     <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-11.0" />
     <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" revision="cm-11.0" />
-    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-11.0" />
+    <project path="hardware/qcom/fm" name="vatva691/android_hardware_qcom_fm" revision="cm-11.0" />
     <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" revision="cm-11.0" />
     
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-11.0"/>
