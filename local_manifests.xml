@@ -8,7 +8,6 @@
     <project path="hardware/qcom/display-caf" name="vatva691/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/media-caf" name="vatva691/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="vatva691/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-11.0" />
     <project path="vendor/aosp" name="vatva691/platform_vendor_aosp" remote="github" revision="aosp-8.1" />
     
         <!-- CyanogenMod dependencies -->
@@ -17,6 +16,6 @@
     <project path="hardware/qcom/fm" name="vatva691/android_hardware_qcom_fm" revision="cm-11.0" />
     <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" revision="cm-11.0" />
     
-    <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-11.0"/>
+
     
 </manifest>
